@@ -17,7 +17,7 @@ por: [wesbos](https://github.com/wesbos/JavaScript30)
 
 ### Desafios:
 
-- [ ] Dia 01 - Drum Kit
+- [x] **Dia 01** - [Drum Kit](https://maluhcosta.github.io/javascript30/01-DrumKit/)
 - [ ] Dia 02 - Clock
 - [ ] Dia 03 - CSS Variables
 - [ ] Dia 04 - Array Cardio Day 1
