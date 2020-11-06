@@ -4,6 +4,8 @@
 <p><strong>en</strong></p>
 <p>A drums that uses the keyboard to trigger sounds.</p>
 
+![Gif de seta clicando](https://cdn.glitch.com/5e6819bf-0707-4f13-ba4b-a25a27b3688e%2Fpicasion.com_2f865f2b12941c33396e4a0791f18d1e.gif?v=1604686274181) [visualize aqui](https://maluhcosta.github.io/javascript30/01-DrumKit/)
+
 ### Preview:
 <img src="https://cdn.glitch.com/5e6819bf-0707-4f13-ba4b-a25a27b3688e%2FOIIIIIIIIIIIIIIII.png?v=1604680390872" width="500px" alt="preview do projeto em mobile e desktop">
 
