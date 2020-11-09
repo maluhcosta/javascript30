@@ -19,7 +19,7 @@ por: [wesbos](https://github.com/wesbos/JavaScript30)
 
 - [x] **Dia 01** - [Drum Kit](https://maluhcosta.github.io/javascript30/01-DrumKit/)
 - [X] **Dia 02** - [Clock](https://maluhcosta.github.io/javascript30/02-Clock/)
-- [ ] Dia 03 - CSS Variables
+- [X] **Dia 03** - [CSS Variables](https://maluhcosta.github.io/javascript30/03-CSSVariables/)
 - [ ] Dia 04 - Array Cardio Day 1
 - [ ] Dia 05 - Flex Panel Gallery
 - [ ] Dia 06 - Type Ahead
