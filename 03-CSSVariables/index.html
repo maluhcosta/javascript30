@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+
+        <link rel="shortcut icon" href="./img/icon.png" type="image/x-icon">
+        <title>CSS Variables | javascript30</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="title-icon">
+                <h2 class="title">Recife</h2>
+                <img class="icon" src="./img/icon.png" alt="Sombrinha de frevo">
+            </div>
+
+            <div class="controls">
+                <label class="label" for="spacing">Espaço:</label>
+                <input class="input" id="spacing" type="range" name="spacing" min="10" max="200" value="10" data-sizing="px">
+
+                <label class="label" for="blur">Resolução:</label>
+                <input class="input" type="range" name="blur" min="0" max="25" value="10" data-sizing="px">
+
+                <label class="label" for="base">Cor da borda:</label>
+                <input type="color" name="base" value="#c4b545" class="input">
+            </div>
+
+            <img class="img" src="./img/recife.jpg" alt="Recife antigo: piso de paralelepípedo, trilho de trêm, prédio coloridos, postes bonitos, arvóres e alguns carros parados.">
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>

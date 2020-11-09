@@ -1,0 +1,69 @@
+/* Utilizando variáveis CSS */
+
+:root {
+    --base: #c4b545;
+    --spacing: 20px;
+    --blur: 10px;
+}
+
+.title {
+    color: var(--base);
+}
+
+.img {
+    background: var(--base);
+    filter: blur(var(--blur));
+    padding: var(--spacing);
+}
+
+/* Ajustes sem variáveis CSS */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600&display=swap');
+
+body {
+    font-family: 'helvetica neue', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 100;
+
+    color: #000000;
+    background: #fdfada;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.title-icon {
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    font-family: 'Satisfy', cursive;
+    font-size: 2.3rem;
+}
+
+.icon {
+    width: 45px;
+    height: 45px;
+
+    margin-left: 10px;
+}
+
+.controls {
+    padding-bottom: 20px;
+}
+
+.input {
+    width: 100px;
+    margin-right: 5px;
+}
+
+.img {
+    width: 48%;
+    height: auto;
+    border-radius: 10px;
+}
