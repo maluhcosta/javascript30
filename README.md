@@ -1,4 +1,4 @@
-# #30-dias-de-JavaScript ![ícone do javascript](https://cdn.glitch.com/5e6819bf-0707-4f13-ba4b-a25a27b3688e%2Ficons8-javascript-30.png?v=1604166455369)
+# #30_dias_de_JavaScript ![ícone do javascript](https://cdn.glitch.com/5e6819bf-0707-4f13-ba4b-a25a27b3688e%2Ficons8-javascript-30.png?v=1604166455369)
 por: [wesbos](https://github.com/wesbos/JavaScript30)
 
 ### Objetivos:
@@ -20,7 +20,7 @@ por: [wesbos](https://github.com/wesbos/JavaScript30)
 - [x] **Dia 01** - [Drum Kit](https://maluhcosta.github.io/javascript30/01-DrumKit/)
 - [X] **Dia 02** - [Clock](https://maluhcosta.github.io/javascript30/02-Clock/)
 - [X] **Dia 03** - [CSS Variables](https://maluhcosta.github.io/javascript30/03-CSSVariables/)
-- [ ] Dia 04 - Array Cardio Day 1
+- [X] **Dia 04** - [Array Cardio Day 1](https://maluhcosta.github.io/javascript30/04-ArrayCardioDay1/)
 - [ ] Dia 05 - Flex Panel Gallery
 - [ ] Dia 06 - Type Ahead
 - [ ] Dia 07 - Array Cardio Day 2
