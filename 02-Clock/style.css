@@ -50,15 +50,49 @@ html {
     transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
 }
 
-.hour-hand {
-    width: 90px;
-    transform-origin: 132%;
-}
-
 .min-hand {
-
+    background: rgb(31, 31, 109);
 }
 
 .second-hand {
+    background: rgb(80, 80, 179);
+}
 
+.subtitle, .separate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: sans-serif;
+    font-size: 1.9rem;
+}
+
+.separate {
+    width: 13rem;
+    height: 5rem;
+
+    background: rgb(255, 255, 255, 0.5);
+    margin-top: 30px;
+}
+
+.hour {
+    color: rgb(15, 15, 51);
+}
+
+.min {
+    color: rgb(31, 31, 109);
+}
+
+.second {
+    color: rgb(80, 80, 179);
+}
+
+.hour, .min, .second {
+    font-size: 8rem;
+    padding-right: 5px;
+}
+
+.sub {
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px 5px rgb(85, 85, 85);
 }
