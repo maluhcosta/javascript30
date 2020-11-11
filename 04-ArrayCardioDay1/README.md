@@ -9,6 +9,6 @@
 ![Gif de seta clicando](https://cdn.glitch.com/5e6819bf-0707-4f13-ba4b-a25a27b3688e%2Fpicasion.com_2f865f2b12941c33396e4a0791f18d1e.gif?v=1604686274181) [visualize aqui](https://maluhcosta.github.io/javascript30/04-ArrayCardioDay1/)
 
 ### Preview:
-<img src="https://cdn.glitch.com/5e6819bf-0707-4f13-ba4b-a25a27b3688e%2FScreenshot_13.png?v=1604983294444" width="500px" alt="preview do projeto">
+<img src="https://cdn.glitch.com/5e6819bf-0707-4f13-ba4b-a25a27b3688e%2FScreenshot_1.png?v=1605054737223" width="500px" alt="preview do projeto">
 
 Projeto 4/30 do **#30_dias_de_JavaScript** de [wesbos](https://github.com/wesbos) 
