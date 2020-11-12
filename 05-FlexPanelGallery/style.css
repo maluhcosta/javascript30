@@ -29,7 +29,7 @@ body {
 
     transition: 
     font-size 0.7s cubic-bezier(0.61,-0.19, 0.7,-0.11),
-    flex 0.7s cubic-bezier(0.61,-0.19, 0.7,-0.11),
+    flex 0.5s cubic-bezier(0.61,-0.19, 0.7,-0.11),
         background 0.2s;
     font-size: 2rem;
     background-size: cover;
@@ -54,7 +54,7 @@ body {
 .panel > * {
     width: 100%;
     margin: 0;
-    transition: all 0.9s;
+    transition: all 0.5s;
 }
 
 .panel p {
@@ -72,6 +72,7 @@ body {
     font-size: 2rem;
 }
 
+
 .panel > *:first-child { 
     transform: translateY(-100%); 
     opacity: 0;
@@ -88,10 +89,12 @@ body {
     opacity: 1;
 }
 
+/* Apagar o primeiro título quando a imagem estiver com a largura MAIOR */
 .panel.open-active > .title1 {
     display: none;
 }
 
+/* Mostrar o segundo título quando a imagem estiver com a largura MAIOR */
 .panel.open-active > .title2 {
     display: flex;
     font-size: 4rem;
