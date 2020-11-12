@@ -1,0 +1,99 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Amatic SC', cursive;
+    font-size: 2rem;
+}
+
+body {
+    margin: 0;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.panels {
+    display: flex;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.panel {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    text-align: center;
+
+    color: white;
+
+    transition: 
+    font-size 0.7s cubic-bezier(0.61,-0.19, 0.7,-0.11),
+    flex 0.7s cubic-bezier(0.61,-0.19, 0.7,-0.11),
+        background 0.2s;
+    font-size: 2rem;
+    background-size: cover;
+    background-position: center;
+}
+
+.panel-1 { background-image:url(./img/cafe.jpg); }
+.panel-2 { background-image:url(./img/gato.jpg); }
+.panel-3 { background-image:url(./img/pessoas.jpg); }
+.panel-4 { background-image:url(./img/home.jpg); }
+.panel-5 { background-image:url(./img/viagem.jpg); }
+
+.title1, .title2 {
+    padding: 90px 0;
+}
+
+/* Apagar o segundo título quando a imagem estiver com a largura MENOR */
+.title2 {
+    display: none;
+}
+
+.panel > * {
+    width: 100%;
+    margin: 0;
+    transition: all 0.9s;
+}
+
+.panel p {
+    text-transform: uppercase;
+    font-size: 2rem;
+    text-shadow: 0 0 4px rgba(0, 0, 0, 0.5), 0 0 14px rgba(0, 0, 0, 0.3);
+}
+
+.panel p:nth-child(2) {
+    font-size: 4rem;
+}
+
+.panel.open {
+    flex: 5;
+    font-size: 2rem;
+}
+
+.panel > *:first-child { 
+    transform: translateY(-100%); 
+    opacity: 0;
+}
+
+.panel > *:last-child { 
+    transform: translateY(100%); 
+    opacity: 0;
+}
+
+.panel.open-active > *:first-child,
+.panel.open-active > *:last-child { 
+    transform: translateY(0); 
+    opacity: 1;
+}
+
+.panel.open-active > .title1 {
+    display: none;
+}
+
+.panel.open-active > .title2 {
+    display: flex;
+    font-size: 4rem;
+    justify-content: center;
+}
