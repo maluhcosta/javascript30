@@ -1,0 +1,129 @@
+html {
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.5rem;
+    color: white;
+    
+	background-image: url("./img/eua.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+body {
+    margin: 0;
+}
+
+.search-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list-search {
+    width: 8rem;
+    height: 2rem;
+
+    text-align: center;
+    font-size: 0.8rem;  
+
+    border: none;
+    border-radius: 5px;
+    margin: 3rem 0 0.5rem 0;
+    outline: none;
+}
+
+.list-suggestions {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+    position: relative;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.list-suggestions li:nth-child(odd) {
+    width: 10rem;
+    height: 1rem;
+
+    font-size: 0.8rem;
+
+    background: rgb(238, 95, 95);
+    padding: 0 5px;
+    border: none;
+}
+
+.list-suggestions li:nth-child(even) {
+    width: 10rem;
+    height: 1rem;
+    
+    font-size: 0.8rem;
+
+    background: rgb(94, 94, 247);
+    padding: 0 5px;
+    border: none;
+
+}
+
+.suggestions {
+    min-width: 10rem;
+    max-width: 1rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+	background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.14);
+    padding: 0 3px;
+    list-style: none;
+    transition: 0.3s;
+}
+
+.populations {
+    align-self: end;
+    font-size: 0.5rem;
+}
+
+.search {
+    background: rgba(250, 250, 158, 0.2);
+    font-style: italic;
+}
+
+@media (min-width: 700px) {
+    .list-search {
+        width: 15rem;
+        height: 3rem;
+
+        font-size: 1.1rem;  
+    }
+
+    .list-suggestions li:nth-child(odd) {
+        width: 14.5rem;
+        height: 1.4rem;
+
+        font-size: 1rem;
+    }
+    
+    .list-suggestions li:nth-child(even) {
+        width: 14.5rem;
+        height: 1.4rem;
+
+        font-size: 1rem;
+    }
+
+    .suggestions {
+        min-width: 15rem;
+        min-height: 1.9rem;
+    }
+
+    .populations {
+        font-size: 0.6rem;
+    }
+}
